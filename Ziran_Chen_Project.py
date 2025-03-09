@@ -72,6 +72,7 @@ def sync_folders(source_folder, replica_folder, logger):
 # main funciton
 def main():
     # Parsing command line arguments
+    # python C:\Users\ChenZ\Desktop\TestProject\Ziran_Chen_Project.py "C:/Users/ChenZ/Desktop/TestProject/My_Source" "C:/Users/ChenZ/Desktop/TestProject/Duplicate" 10 "C:/Users/ChenZ/Desktop/TestProject/sync.log"
     parser = argparse.ArgumentParser(description="Folder synchronization tool (one-way synchronization)")
     parser.add_argument("source", type=str, help="Source folder path")
     parser.add_argument("replica", type=str, help="Copy folder path")
